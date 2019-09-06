@@ -1,0 +1,23 @@
+No Github
+1 - Crie um formulário de login em HTML
+obs.: apenas para treino
+2 - Faça essa branch "feature/pagina_login" através da master e nomeie o commit "aula 32 - login"
+3 - git fetch = lista as mudanças no servidor
+4 - git pull = puxa as mudanças do servidor para local
+5 - branchs
+overview
+ - default(branch master)
+Yours = mostra apenas as branches q vc criou
+Active = as branches q estão ativas
+Stale = Branch q ñ usa a muito tempo
+All branches = todas branches
+6 - icone: 0|1 = significa q a branch ñ esta a par com a branch master, no exemplo essa branch esta com 1 commit a mais
+obs.: a esquerda (0) qnts commits a branch esta atras
+      a direita (1) qnts commits a branch esta a frente
+
+No terminal
+1 - insira uma linha no arq login.html
+2 - git add .
+3 - git commit -m "mais uma linha login"
+4 - git push = envia para o servidor
+obs.: no github vc consegue ver o historico daquele arq, todos seus commits

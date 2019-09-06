@@ -1,0 +1,16 @@
+1 - git status = mostra a atual situação
+2 - abra o arq index.html e escreva "teste aula git status"
+3 - git status = informa as mudanças
+4.1 - git add . = adiciona o arq para Staging Area
+ou
+4.2 - git checkout -- (nome arq) = retorna para versão anterior da ultima alteração
+      git checkout -- index.html
+obs.: "teste aula git status" não vai aparecer mais
+5 - adicione a alteração no index.html
+    git add .
+6 - git status = mostra q o arq esta pronto para ser commit
+7 - git commit -m "commit aula git status"
+
+obs.: git staus
+arqs em VEMELHO = ñ marcados para commit ainda (falta um git add ou remove)
+arqs em VERDE   = adicionados e marcados para o commit

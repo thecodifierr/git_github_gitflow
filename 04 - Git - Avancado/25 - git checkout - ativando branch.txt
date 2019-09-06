@@ -1,0 +1,16 @@
+git fetch = para ter certeza que esta tudo ok
+obs.: vai notar q o index da aula passada foi alterado e precisa ser add + commit ou deletado
+git add .
+git commit -m "commit aula 24"
+git fetch = agr verá q ñ tem mais nenhuma mudança do servidor
+
+git checkout (nomebranch) = após criada troca para branch selcionada
+git checkout feature/atualizacao_index = troca para essa branch q foi inserida no Github e agr esta conectada localmente
+altere o arq "index"
+alteração: inseri uma linha escrito "aula 25 git checkout"
+git add .
+git commit -m "commit aula 25"
+obs.: lembrando q após a troca de branch, os demais passos estão ligados com a branch "feature/atualizacao_index"
+git push = como o git sabe q essa branch local e a remota estão conectadas ele envia para o servidor automaticamete
+No Github
+obs.: vc vai ver q a branch "master" ainda possui os commits anteriores e a outra branch possui esse commit novo além dos mesmos da master até q alguem faça um "merge"

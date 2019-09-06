@@ -1,0 +1,46 @@
+RELEASE
+
+git flow release start (nomebranch)
+ - cria uma branch (git checkout -b)
+ - automaticamente nomeia com release/(nomebranhc)
+ - passa a usar a nova branch
+   (git checkout release/(nomebranch))
+
+git flow release finish (nomebranch)
+ - merge a release branch
+   NOMEBRANCH dentro de master
+   (git checkout master
+   git merge NOMEBRANCH)
+ - cria uma tag com o nome release/NOMEBRANCH
+   (git tag release/nomebranch)
+ - merge a release/nomebranch na develop
+   git checkout develop
+   git merge release/nomebranch
+ - deleta a release branch
+   (git branch -D release/nomebranch)
+ - muda para a develop
+   (git checkout develop)
+
+git flow release publish nomebranch
+ - cria uma branch remota (git push --set-upstream origin release/nomebranch)
+
+Exemplo:
+Em qqr branch
+
+git flow release start v2.0
+
+altere o arq "readme.txt"
+alteração = inseri uma linha
+git add .
+git commit -m "ultima mudança"
+
+git flow release finish v2.0
+obs.: vai te dar uma opção de inserir um commit relacionado ao merge q esta fazendo e volta na develop
+:x = salva e fecha
+agr pede para inserir uma tag
+tag = marca o release 2.0
+:x = salva e fecha
+obs.: vai te dar um resumo das ações feitas
+
+git flow release start v3.0
+git flow release publish v3.0 = vai estar enviando pro github este novo release

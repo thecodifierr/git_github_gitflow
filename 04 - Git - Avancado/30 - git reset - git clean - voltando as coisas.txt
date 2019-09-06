@@ -1,0 +1,22 @@
+reset = você pode escolher um rash do seu log e vc vai voltar o commit para aquele rash escolhido
+
+git reset (rash) = retorna para o commit selecionado
+obs.: note que os commits q haviam sido feitos pós esse commit q vc escolheu 
+não aparecem mais, o commit escolhido se torna o atual q vc esta utilizando,
+lembrando q o "git reset" apaga os commits mas ñ o trabalho feito neles,
+podendo add + commit eles
+
+Depois do reset se ñ quiser mais fazer nada com os commits que ficam na area de trabalho
+
+git checkout -- . = limpa a area
+git checkout -f = remove/deleta qqr arq da area
+
+obs.: git rmv = deleta o tracking do arq mas ñ o arq em si
+
+Vc vai ter voltado 2 commits, porém, o Github vai estar 2 commits a frente
+git push -f = força o servidor a atualizar quando acontece esses casos
+
+ou
+
+git reset HEAD (rash) = da um reset baseado na HEAD
+obs.: vai ir para o commit desejado

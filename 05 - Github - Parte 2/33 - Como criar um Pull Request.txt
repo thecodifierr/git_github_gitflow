@@ -1,0 +1,11 @@
+No Github
+
+1 - Branches > New pull request
+base:master = quem vai receber a pull request/ esse merge
+compare:feature/pagina_login
+obs.: informa automaticamente se tiver algum conflito para mergear
+2 - Descrição: Esse PR adiciona um pagina de login
+3 - Create pull request
+obs.: em baixo vai mostrar os commits q serão adicionados e mais em baixo mostra o estado final dos commits
+unified: após o merge/PR
+split: antes do merge/PR

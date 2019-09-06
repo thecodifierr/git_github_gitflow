@@ -1,0 +1,5 @@
+git config --global credential.helper 'store' = prga usuarios e senhas para autenticar automaticamente
+
+Forneça um local para salvar os arqs
+
+Obs.: Mais facil verificar outro meio

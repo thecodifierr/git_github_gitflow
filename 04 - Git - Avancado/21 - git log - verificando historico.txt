@@ -1,0 +1,1 @@
+git log = lista um historico de todos os commits feitos de sua branch atual

@@ -1,0 +1,19 @@
+um usuario escolhe outro para fazer pull request querendo saber sua opnião
+
+1 - Add your review
+2 - Review changes = opção para fazer comentários
+3 - comment = apenas sua opinião
+    approve = vc aprovou
+    request changes = quando possui algo q vc gostaria q ele mudasse ou algum erro q notou
+
+exemplo: notou q o "placeholder" inseriu um de senha, sendo que na vdd era de e-mail
+ao lado esquerdo tem um icone + e vc escreve o q deseja
+
+start review
+review changes = vai mostrar a quantidade de pontos q vc esta pedindo para mudar e assim por diante caso tenha mais coisas
+
+vai aparecer q vc possui 2 comentarios pendentes q o solicitante do PR ainda não lhe respondeu
+submit changes e vc envia para o solicitante da PR
+
+o autor da PR vai ter opção de
+Approve Changes / Dismiss review

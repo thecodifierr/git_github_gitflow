@@ -1,0 +1,23 @@
+git merge (nomebranch) = mescla as alterações de uma branch para a outra
+
+No Github
+Na branch "feature/atualizacao_index" possui 2 commits a mais que a "master"
+git branch = lista as branches
+git checkout feature/atualizacao_index = troca para essa branch
+git log = lista os commits
+
+Precisamos fazer com q a branch master receba as atualizações da outra branch
+git checkout master = troca para essa branch
+obs.: vc precisa estar na branch q deseja para puxar as alterações de outra branch
+git merge feature/atualizacao_index = mescla as atualizações de outra branch para essa
+obs.: ele trouxe da branch "feature/atualizacao_index" para a master
+git log = lista os commits e vc vai notar q os commits da outra branch tbm estão nessa
+git push = envia as atualizações para o Github
+
+No Github
+obs.: Agora vc deleta a outra branch pq ela foi criada apenas na intenção de fazer alterações e como ñ tem mais utilidade é melhor deleta-la
+
+git branch -D (nomebranch) = para deletar a branch
+git branch = lista as branches
+
+git checkout -b (nomebranch) = cria e entra na nova branch

@@ -1,0 +1,26 @@
+git branch = cria uma branch
+obs.: possivel criar pelo github e pelo terminal
+
+No Github
+1 - Escolha um arq no exemplo "index"
+2 - selecione para editar
+3 - edição: mudei a cor do body
+4 - na hora de commit, escolher a opção "create a new branch"
+5 - nome: feature/(nomebranch) = feature significa q é um anova funcionalidade
+          feature/atualizacao_index
+obs.: lembrando q diferença dela para master é a "cor do body"
+esqueça a parte do pull request e va para "meu_projeto_versionado"
+agora vai aparecer 2 branches e 1 commit a mais
+a diferença é q na branch master vai aparecer somente os commits dessa branch
+e na branch criada vai aparecer os commits criados anteriormente + esse commit criado apenas nessa branch
+Como deletar uma branch no Github?
+branches > no icone de lixeira
+obs.: possível restaurar após apaga-la, porém, se sair da pagina não vai conseguir
+
+Criando branch pelo terminal
+git branch (nomebranch)
+git branch feature/atualizacao_template = cria a branch
+git log = vai ver q ñ tem nenhum commit nessa branch criada
+git branch = lista as branches disponiveis
+git branch -D (nomebranch) = deleta a branch selecionada
+

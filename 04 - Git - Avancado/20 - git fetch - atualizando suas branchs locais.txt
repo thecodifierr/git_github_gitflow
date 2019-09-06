@@ -1,0 +1,11 @@
+git fetch = atualiza apenas o indicador de cada branch para saber q esta na forma mais atualizada
+
+No Github
+entre no arq "index.html"
+Insira uma linha com "teste aula 20 git fetch"
+faça commit direto pelo github na master
+
+obs.: lembrando q o github esta acima do repositorio local por causa dessa alteração
+
+git fetch = faz o download de commits, arqs e referências do repositorio remoto/servidor para o local
+git merge

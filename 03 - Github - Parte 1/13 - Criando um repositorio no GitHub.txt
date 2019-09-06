@@ -1,0 +1,5 @@
+nome repositorio: meu_projeto_versionado
+publico
+inicialize com README
+URL: https://github.com/devmagee/meu_projeto_versionado
+

@@ -1,0 +1,20 @@
+As ferramentas que você precisa para começar a usar o Git
+
+Editor de texto
+exemplos:
+ - https://www.sublimetext.com/3
+ - https://notepad-plus-plus.org/download/v7.7.1.html
+ - https://pplware.sapo.pt/software/gobby-editor-de-texto-colaborativo-para-programadores/
+obs.:
+ - Pode usar o bloco de notas ou wordpad que ja são instalados em seu pc.
+
+Aplicativo terminal
+exemplos:
+ - cmder (https://cmder.net/) => ja vem com git e git-flow
+ - Gitbash (https://git-scm.com/downloads) => ja vem com git e git-flow
+Obs.: Use o terminal de sua preferência
+
+Autenticador do servidor com GitHub
+Exemplo:
+ - https://www.puttygen.com/
+Obs.: Possível fazer através do prórpio Git.

@@ -1,0 +1,4 @@
+O que é git-flow?
+ - É um grupo de extenções do git que possibilita operações em auto nível nos repositórios.
+ - Reune varios comandos em apenas um.
+ - https://danielkummer.github.io/git-flow-cheatsheet/index.pt_BR.html

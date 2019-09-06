@@ -1,0 +1,6 @@
+Encontre repositorio
+git-tips/tips = possui dicas de git
+
+pegue a URL
+git clone https://github.com/git-tips/tips.git
+ls = para ver os docs da pasta

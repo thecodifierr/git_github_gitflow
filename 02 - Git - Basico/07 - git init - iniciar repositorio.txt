@@ -1,0 +1,29 @@
+GIT INIT
+ - Inicializa repositório git. O diretório usado para a criação não precisa necessariamente estar vazio,
+pode existir arquivos antigos. Isso torna possível fazer o controle de versão em um projeto já
+existente.
+
+Como usar "git init"
+Obs.: Utilizaremos o diretório Desktop(area de trabalho) como local principal, porém, você pode usar qualquer diretório de sua escolha.
+
+1.Inicie o terminal escolhido (utilizaremos o gitbash)
+ - Entre no diretório escolhido do projeto
+Comando:
+ - cd ~/(caminho)
+ - cd ~/Desktop 
+
+2.Crie uma pasta
+Comando:
+ - mkdir (nome pasta)
+ - mkdir git_github_gitflow
+obs.: Criação opcional através de comando ou pelo diretório
+
+3.Entre na pasta criada
+Comando:
+ - cd git_github_gitflow
+ - git status => mostra o status dos documentos dentro da pasta
+obs.: nesse caso vai informar que essa pasta não é um repositório do git
+
+4.Inicie um repositório git
+Comando:
+ - git init => inicializa e vai considerar que a pasta em que você se encontra é um repositório git

@@ -1,0 +1,21 @@
+git stash = limpa o diretorio sem q vc perca os arq q vc esta alterando
+obs.: quando vc altera um arq mas vc ñ tem ctz se realmente quer altera-lo, ou apenas fazendo testes e quer retornar mais tarde para esse ponto, guarda o estado dos seus arqs naquele momento
+1 - altere arq "index" e escreva "aula 31 - git stash"
+2 - entre na branch "feature/mudancas"
+3 - git add .
+4 - git commit -m "commit aula 31"
+5 - git log = lista os commits e vai mostrar o estado q vc esta
+6 - crie ou altere qqr arq
+7 - git add .
+obs.: agora vc quer voltar ao começo porém vc ñ quer perder o q vc acabou de fazer
+Só fuciona em arqs adicionados
+8 - git status = mostra o estado dos arqs e vc verá aqueles alterados
+9 - git stash = guardo o estado atual para poder retornar depois
+obs.: vc vai notar q ele retornou para antes da alteração dos arqs
+10 - altere mais um arq	
+11 - git stash = vai retornar novamente
+obs.: agora vc quer voltar para as alterações q vc havia feito q estão como "stash"
+12 - git stash list = lista as arqs
+13 - git stash pop = retorna os arqs q fez no ultimo stash, no ultimo commit
+14 - git stash list = lista os stash e agr vc vai ver q tem apenas 1
+15 - git stash pop = retorna mais uma vez para o primeiro stash q vc fez

@@ -1,0 +1,25 @@
+Chave SSH = Cuida da conexão do pc/ambiente git local com o github
+
+https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+Faça download do " puttygen.exe " 64 bits
+
+Programa .exe
+Após abri-lo
+va em > Generate > Fique mexendo no mouse, através dos movimentos ele vai criar uma chave
+A chave vai ser gerada
+Temos a "Public Key" que colocaremos no GitHub
+Colocar uma passphrase(senha) nessa chave
+Salvar public key = C:/Usuários/diego.souza/.ssh
+e
+Salvar private key C:/Usuários/diego.souza/.ssh
+
+No Github
+Settings > SSH and GPG keys > New SSH key
+
+Title: (nome que vc quiser) 
+Title: Chave Publica
+
+key: (conteúdo da chave)
+key: 
+
+OBS.: TENTEI MAS DESSE JEITO Ñ FUNCIONOU, VERIFICAR OUTRO MEIO

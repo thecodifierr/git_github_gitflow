@@ -1,0 +1,43 @@
+No Github
+1 - Crie uma nova branch
+1.1 - Vá no arq "index" e insira uma linha escrito "aula 28 git rebase"
+2 - Salve criando uma nova branch com nome "feature/branchB" e commit "commit 1 da branch B"
+Obs.: só foi criada e ainda ñ esta mergida na master
+
+1 - git checkout -b feature/branchA = cria e altera para essa branch
+2 - git branch = lista as branches
+3 - Faça uma alteração no arq "index", ensira uma linha escrito "commit 1 da branch A - aula 28"
+4 - git commit -a -m "primeiro commit da branch A"
+
+Faça o merge da branchB para branchA
+No Github
+Compare & pull request > create a pull request > merge pull request > confirm merge
+obs.: merge feito
+
+No terminal
+Agora a branchA esta clonada de uma master que foi alterada pq a master possui os commits da branchB
+
+git fetch = vai mostrar q a master foi atualizada
+git rebase (branch)
+git rebase master = faz a atualização
+git checkout master
+git pull = para ouxar as atualizações
+git checkout feature/branchA
+git rebase master
+obs.: agora vai acontecer um conflito
+no arq index vai aparecer o conflito, delete o conflito e deixe os 2 commits feitos anteriormente, da branchA e branchB
+agora q vc tem certeza do que quer fazer
+git status = vai mostrar q o arquivo foi modificado
+git add .
+git rebase --continue
+git log = lista os commits
+git push = para enviar as alterações para o servidor
+Obs.: vai informar q ñ possui essa branch no github e precisa cria-la
+git push --set-upstream origin (nomebranch)
+git push --set-upstream origin feature/branchA = cria a branch no servidor
+git checkout master
+git merge feature/branchA
+git push
+
+No Github
+agora pode deletar as branches

@@ -1,0 +1,45 @@
+git flow feature start (nomebranch)
+ - cria uma branch (git checkout -b) baseada na (DEVELOP)
+ - automaticamente nomeia com feature/(NOMEBRANCH)
+ - passa a usar a nova branch (git checkout feature/(NOMEBRANCH))
+
+git flow feature finish (nomebranch)
+ - merge a feature branch
+   (NOMEBRANCH) dentro de (develop)
+   (git checkout develop;
+    git merge NOMEBRANCH)
+ - deleta a feature branch
+   (git branch -D feature/(NOMEBRANCH))
+
+git flow feature publish (nomebranch)
+ - cria uma branch remota
+   (git push --set-uptream oroigin feature/NOMEBRANCH
+
+Exemplo:
+git flow feature start (nomebranch)
+git flow feature start senha
+obs.: vai mostrar q uma nova branch "senha" foi criada baseada em branch "develop" e q vc esta nessa feature
+
+Altere o arq "readme.txt"
+alteração = inseri uma linha escrito "na branch senha"
+git status = lista as alterações
+git add .
+git commit -m "adicionei uma linha"
+
+git flow feature finish (branch)
+git flow feature finish senha
+obs.: procura a branch "senha", faz o merge, e ja te transferi para branch "develop"
+git log --oneline ou git log = lista os commits
+
+Crie outra branch com nome "teste2"
+git flow feature start teste2
+
+Faça mais uma alteração no arq "redme.txt"
+alteração = inseri mais uma linha escrito "mais um teste!"
+git add .
+git commit -m "testando git flow publish"
+
+vamos supor q eu quero q alguem revise meu código
+git flow feature publish (nome branch)
+git flow feature publish teste2
+obs.: cria uma branch remota na origem chamada "feature/teste2" trakeando ja com a branch local

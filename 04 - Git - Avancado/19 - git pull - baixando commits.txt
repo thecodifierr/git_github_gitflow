@@ -1,0 +1,27 @@
+git push = atualiza o ambiente local com as informações do servidor
+
+No Github
+Crie um novo arq com nome "estilo.css"
+Insira "body {
+		color: blue
+	}
+
+Commit na prorpia branch master do github
+obs.: agr o github esta a frente do repositorio local, pq possui 2 arqs
+
+git pull = vai verificar se existe alguma coisa nova no servidor e trazer para o repositorio
+remote:                                                                         remote: Enumerating objects: 4, done.
+remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote:                                                                         remote: Counting objects: 100% (4/4), done.
+remote:                                                                         remote:                                                                         remote:                                                                         remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/devmagee/meu_projeto_versionado
+   85ea5d4..5c63be5  master     -> origin/master
+Updating 85ea5d4..5c63be5
+Fast-forward
+ estilo.css | 3 +++
+ 1 file changed, 3 insertions(+)
+ create mode 100644 estilo.css
+
+obs.: vai baixar o arq q inserimos no guthub "estilo.css"
+

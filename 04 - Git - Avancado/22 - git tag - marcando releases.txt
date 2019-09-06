@@ -1,0 +1,29 @@
+git tag = serve para voltar nos releases que vc deseja
+ex.: v1 / v2 e assim por diante
+
+Criar tag via Github
+1 - create a new release (branch master)
+2 - nome: 1.0 (versão)
+3 - nome: tag inicial
+4 - descrição: tag inicial de teste
+5 - publish release
+6 - vai ser criado o "latest release" - ultimo criado
+obs.: este release vai marcar o ultimo commit feito na branch
+
+git fetch = vai mostrar q possui essa tag feita
+From https://github.com/devmagee/meu_projeto_versionado
+ * [new tag]         1.0        -> 1.0
+git pull = download das atualizaççoes
+
+no arq "index" adicione uma linha escrito "teste aula 22 git tag"
+git add .
+git commit -m "commit aula 22 git tag"
+git push = envia para github
+
+Criando tag local
+git tag (nome tag)
+git tag 1.1 = cria a tag localmente referente ao ultimo commit
+git push --tags = envia as tags criadas localmente
+Total 0 (delta 0), reused 0 (delta 0)
+To https://github.com/devmagee/meu_projeto_versionado.git
+ * [new tag]         1.1 -> 1.1

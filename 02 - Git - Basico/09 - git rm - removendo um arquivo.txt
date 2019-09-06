@@ -1,0 +1,11 @@
+Antes de comitar o arquivo precisamos aprender como remove-los caso aconteça alguma situação de adicionar um ou outro arquivo sem querer.
+
+Na situação anterior adicionamos o arquivo index.html, porém, agora queremos remove-lo, como fazer isso?
+
+git rmv
+ - Remove da Stanging Area que é para onde o arquivo vai quando usamos git add nele
+
+1.Remova o arquivo index.html
+ - git rm (nome do arquivo)
+ - git rm -f (nome arquivo) => Força a remoção e deleta o arquivo do diretório
+obs.: Remove apenas localmente ja que o arquivo ainda não foi linkado com o servidor

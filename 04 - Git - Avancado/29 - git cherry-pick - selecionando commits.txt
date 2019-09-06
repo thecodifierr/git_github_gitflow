@@ -1,0 +1,33 @@
+git cherry-pick = para pegar commits de ua branch, quando quer fazer um merge mas ñ quer colocar tudo dentro da branch
+obs.: escolhendo os commits dedo a dedo
+ 
+1 - git checkout -b feature/mudancas = cria e troca de branch
+2 - altere o arq "estilo" mude a cor
+3 - git add .
+4 - git commit -m "commit 1 - aula 29"
+5 - altere o arq "estilo" mude de cor
+6 - git add .
+7 - git commit -m "commit 2 - aula 29"
+8 - git log = lista os commits
+9 - altere arq "index" insira uma linha "aula 29 git cherry-pick"
+10 - git add .
+11 - git commit -m "commit 3 aula 29"
+12 - git push --set-upstream origin feature/mudancas = envia a branch e as alterações para o servidor
+
+No Github
+obs.: Verá q possui 3 commits q diferem da master, e cada um deles possui o "RASH", código pequeno do lado direito e é com ele que faremos o cherry-pick
+
+Das 3 alterações na branch mudanças, vc só queria 2 delas
+
+1 - entre e pegue o rash do 1 commit q esta na URL
+2 - git checkout master
+3 - git fetch = para ter ctz q esta tudo atualizado
+4 - git cherry-pick (nomebranch) (rash)
+    git cherry-pick feature/mudancas (rash/código url)
+obs.: vc vai notar q por ter usado "git cherry-pick" na branch master, ele selecionou apenas esse commmit da outra branch
+
+Agora quero pegar somente o 3 commit q fizemos(ou qqr outro)
+1 - entre no commit e pegue o rash
+2 - git cherry-pick feature/mudancas (rash/código url)
+3 - git log = vai listar os commits e vc vai ver q possui os 2 commits selecionados acima
+obs.: lembrando q pegamos apenas 2 commits para usar na branch master

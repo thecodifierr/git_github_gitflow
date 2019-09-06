@@ -1,0 +1,12 @@
+repositorio: meu_projeto_versionado
+1 commit = Initial commit
+1 branch
+
+1 arq = readme.md
+
+1 - Edite o arq readme no Github
+2 - Escreva "uma nova linha"
+3 - Commit changes
+    escreva: atualizei readme
+    commit changes
+obs.: possível criar uma nova branch nas opções

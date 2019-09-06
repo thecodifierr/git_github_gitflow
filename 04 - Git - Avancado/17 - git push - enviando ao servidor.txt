@@ -1,0 +1,16 @@
+Altere o arq "readme"
+alteração = inseri uma linha escrito "aula 17 push"
+
+git add .
+git commit -m "commit aula 17 push"
+
+git push = faz a conexão com o servidor
+obs.: ñ vai funcionar por ñ ter nenhum rpeositorio ainda, ñ tem nenhuma ligação com o guthub
+
+git remote -v = lista as conexões q possui para o projeto q esta
+git remote add origin (url) = conecta o repositorio remoto(servidor) com o local
+git remote add origin https://github.com/devmagee/meu_projeto_versionado.git
+obs.: agora teremos o local linkado
+
+git push --set-upstream origin (branch)
+git push --set-upstream origin master

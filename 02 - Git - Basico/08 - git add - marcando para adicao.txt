@@ -1,0 +1,25 @@
+GIT ADD
+ - Adiciona todos os arquivos (adicionados, modificados e removidos) na área de preparação
+(staging area) e os deixa preparado para o commit, indicando ao git que esses arquivos serão
+rastreados.
+
+1.Abra a pasta do projeto dentro do editor de texto selecionado
+obs.: Vai ficar melhor para edição dos arquivos do projeto, porém, pode edita-los apenas com o bloco de notas
+
+2.Crie um arquivo e insira qualquer coisa para que você possa altera-lo depois.
+
+Exemplo: Inseri um formatação html padrão
+
+ - <html>
+    <body>
+     Meu primeiro arquivo
+    </body>
+ - </html>
+
+Comando:
+ - ls => lista os arquivos dentro do diretório que você se encontra
+ - gi status => vai mostrar o arquivo html que foi criado dentro do projeto(repositório) 
+ - git add (nome arquivo) = adiciona apenas o arquivo nomeado
+#  git add . = adiciona todos os arquivos com .(ponto)
+#  git add --all = adiciona todos os arquivos da pasta
+ - git status = informa o status dos arqs dentro da pasta

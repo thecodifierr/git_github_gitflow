@@ -1,0 +1,16 @@
+Como usamos o "git rm" anteriormente para remover o arquivo "index.html", agora crie novamente um arquivo "index.html" no mesmo local
+
+git commit -m "mensagem_commit"
+ - A partir das mudanças que estão na área de preparação, salva mudanças no repositório local
+juntamente com a mensagem de commit informada, o nome do usuário, e-mail, data e horário.
+
+
+
+
+
+1 - git add .
+2 - git commit -m "(msg do commit)"
+3 - abra arq index.html e escreva algo (segundo commit) e salve
+4 - retorne ao terminal, git status para ver a modificação
+5 - git add .
+6 - git commit -m "segundo commit index"

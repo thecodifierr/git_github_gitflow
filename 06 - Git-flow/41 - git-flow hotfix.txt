@@ -1,0 +1,39 @@
+HOTFIX
+
+git flow hotfix start nomebranch
+ - cria uma branch (git checkout -b (nome branch)) baseada na master
+ - automaticamente nomeia com hotfix/nomebranch
+ - passa a suar a nova branch (git checkout hotfix/nomebranch))
+
+git flow hotfix finish nomebranch
+ - merge a hotfix branch
+   nomebranch dentro da master
+   (git checkout master ; git merge nomebranch)
+ - cria uma tag com o nome hotfix/nomebranch
+   (git tag hotfix/nomebranch) na master
+ - merge a hotfix/nomebranch na develop
+   git checkout develop; git merge hotfix/nomebranch)
+
+ - merge a hotfix/nomebranch na master
+   (git checkout master;git merge hotfix/nomebranch)
+ - deleta a hotfix branch
+   (git branch -D hotfix/nomebranch)
+ - muda para a develop
+   (git checkout develop)
+
+Exemplo:
+git flow hotfix start (nomebranch)
+git flow hotfix start arruma_cor
+altere o doc "readme.txt"
+alteração = troquei de cor/inseri uma linha
+git add .
+git commit -m "emergencia: cor azul"
+git flow hotfix finish arruma_cor = vai colocar a hotfix dentro da master e mais tarde vai co-locar na develop
+Pede uma msg de commit
+:x
+Pede a tag q vai entrar na master
+tag = emergencia dia 16 abril - fixed color
+:x
+obs.: terminado, a hotfix foi mergida na master, colocamos uma tag, hotfix branch foi mergida de volta na develop (apenas a parte q quer mudar) e esa hotfix branch foi deletada
+git push
+git push --tags
